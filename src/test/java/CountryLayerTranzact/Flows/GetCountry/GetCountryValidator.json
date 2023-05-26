@@ -1,0 +1,10 @@
+{
+  "name": "#string",
+  "topLevelDomain": "#notnull",
+  "alpha2Code": "#string",
+  "alpha3Code": "#string",
+  "callingCodes": "#notnull",
+  "capital": "#string",
+  "altSpellings": "#notnull",
+  "region": "#string"
+}

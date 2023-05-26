@@ -1,0 +1,7 @@
+{
+  "PostCountryGeneral": {
+    "name": "#(NameCountry)",
+    "alpha2_code": "#(idAlpha2)",
+    "alpha3_code": "#(idAlpha3)"
+  }
+}

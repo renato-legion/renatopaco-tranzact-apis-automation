@@ -1,0 +1,13 @@
+{
+  "PutCountryGeneral": {
+    "name": "#(NameCountry)",
+    "alpha2_code": "#(idAlpha2)",
+    "alpha3_code": "#(idAlpha3)"
+  },
+
+  "ModifyNameCountry":{
+    "name": "#(NameCountry)",
+    "alpha2_code": "#(idAlpha2)",
+    "alpha3_code": ""
+  }
+}
