@@ -12,8 +12,8 @@ Feature: GetCountry
     Examples:
       | idCountry |
       | US        |
-#      | DE        |
-#      | GB        |
+      | DE        |
+      | GB        |
 
 
   @GetCountry2

@@ -16,7 +16,7 @@ Feature: UnitGet Country Validator
   Scenario Outline: Bring Countries with Explicit Examples and validate the schema response - Validate the response with Country not found or Error case with hson
     Given url host
     And path '/v2/alpha/' + idCountry + authorization
-#    And retry until responseStatus == 404 || responseStatus == 200
+    And retry until responseStatus == 404 || responseStatus == 200
     When method get
     And print response
     And match response !contains errorResponse_AccessKey
@@ -26,7 +26,7 @@ Feature: UnitGet Country Validator
     And match response == schemavalidator
     Examples:
       | idCountry |
-      | US       |
+      | US        |
       | DE        |
       | GB        |
 
@@ -34,6 +34,7 @@ Feature: UnitGet Country Validator
   Scenario Outline: Get Countries with CSV data and validate the schema response - Validate country not found with status 200 with "THEN status 200"
     Given url host
     And path '/v2/alpha/' + idCountry + authorization
+    And retry until responseStatus == 200
     When method get
     Then status 200
     And print response
