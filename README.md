@@ -3,7 +3,7 @@
 
 ### Archetype
 ````text 
-gir-automation-web/
+CountryLayerTranzact/
 ├── src/
 ├── test/
 ├── CountryLayerTranzact/

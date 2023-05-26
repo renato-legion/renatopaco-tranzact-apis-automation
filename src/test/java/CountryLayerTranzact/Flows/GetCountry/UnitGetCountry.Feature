@@ -27,8 +27,8 @@ Feature: UnitGet Country Validator
     Examples:
       | idCountry |
       | US       |
-#      | DE        |
-#      | GB        |
+      | DE        |
+      | GB        |
 
   @GetCountry2
   Scenario Outline: Get Countries with CSV data and validate the schema response - Validate country not found with status 200 with "THEN status 200"
